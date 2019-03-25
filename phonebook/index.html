@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Phonebook</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="Phonebook">
+        <meta name="author" content="Elvir Uzunovic">
+        <script src="./js/table.js"></script>
+    </head>
+
+    <body>
+        <div>Ime</div><input id="name" type="text">
+        <div>Prezime</div><input id="name" type="text">
+        <div>Broj telefona</div><input id="name" type="text">
+        <br>
+        <input type="submit" value="save" onclick="phoneBook()">
+        <br>
+        <br>
+        <table id="table">
+            <thead>
+                <tr>
+                    <th>Ime</th>
+                    <th>Prezime</th>
+                    <th>Broj telefona</th>
+                </tr>
+            </thead>
+            <tbody id="body">
+            </tbody>
+        </table>
+    </body>
+</html>
