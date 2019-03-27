@@ -4,4 +4,8 @@ function phoneBook (){
     let telefon = document.getElementById ('telefon').value;
     document.getElementById ('table');
     document.getElementById ('body').innerHTML += `<tr><td>${ime}</td><td>${prezime}</td><td>${telefon}</td></tr>`;
+    document.getElementById ('ime').value = "";
+    document.getElementById ('prezime').value = "";
+    document.getElementById ('telefon').value = "";
+
 }

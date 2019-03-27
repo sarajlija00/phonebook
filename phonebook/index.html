@@ -5,18 +5,19 @@
         <meta charset="UTF-8">
         <meta name="description" content="Phonebook">
         <meta name="author" content="Elvir Uzunovic">
+        <link rel="stylesheet" href="./style/main.css">
         <script src="./js/table.js"></script>
     </head>
 
     <body>
-        <div>Ime</div><input id="ime" type="text">
-        <div>Prezime</div><input id="prezime" type="text">
-        <div>Telefon</div><input id="telefon" type="text">
+        <div class="font">Ime</div><input id="ime" type="text">
+        <div class="font">Prezime</div><input id="prezime" type="text">
+        <div class="font">Telefon</div><input id="telefon" type="text">
         <br>
         <input type="button" value="save" onclick="phoneBook()">
         <br>
         <br>
-        <table id="table">
+        <table id="table" class="center">
             <thead>
                 <tr>
                     <th>Ime</th>
