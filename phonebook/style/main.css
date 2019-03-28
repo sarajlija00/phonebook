@@ -1,6 +1,14 @@
+.body {
+    background-image: url("../images/elva.jpg");
+    background-repeat: no-repeat;
+    background-size: 1300px 1050px;
+}
 .center {
     margin: 0 auto;
 }
 .font {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.table-font {
+    font-size: 50px;
 }
